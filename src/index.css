@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: .1em;
+  background: black;
+  color: white;
+  font-family: 'Poiret One', cursive;
+
+}
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  }
+.nav{
+  display: flex;
+  justify-content: space-around;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+}
