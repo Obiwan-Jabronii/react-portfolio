@@ -8,9 +8,13 @@ const commentSchema = new Schema(
             type: String,
             required: 'You need to leave a comment!',
             minlength: 1,
-            maxlength: 250
+            maxlength: 200
         },
         username: {
+            type: String,
+            required: true
+        },
+        relation: {
             type: String,
             required: true
         },
