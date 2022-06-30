@@ -1,10 +1,11 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGOD_URI || 'mongodb://localhost/react-portfolio', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    UseCreateIndex: true,
-    useFindAndModify: false
-});
+mongoose.connect(
+    process.env.MONGODB_URI || 'mongodb://localhost:27017/react-portfolio',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  );
 
 module.exports = mongoose.connection;
