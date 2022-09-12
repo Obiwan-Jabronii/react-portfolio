@@ -1,7 +1,7 @@
 import React from 'react';
 import itsAmiibo from '../assets/its-amiibo-mario1.jpg';
 import deepThoughts from '../assets/deep-thoughts1.jpg';
-import budgetTracker from '../assets/budget-tracker1.jpg';
+import michiganTravel from '../assets/michigan-travel.jpg'
 
 const Projects = () => {
     return (
@@ -21,9 +21,9 @@ const Projects = () => {
                     style={{ height: 150 }}
                     // className='col-3'
                 /></a>
-                <a href='https://obiwan-jabronii.github.io/its-amiibo-mario/' className='col-12 text-center '><h2 className='col-12 text-center text-light'>Budget Tracker</h2></a>
-                <p className='col-4 text-light mb-1' style={{ fontSize: '1.25rem' }}>A budget tracking application. Allows users to add and subtract funds while compiling the inputs in a graph to show trends over time. A mostly back-end application, it uses MongoDB and Javascript logic to track inputs and update the graph in real time.</p>
-                <a href='https://obiwan-jabronii.github.io/its-amiibo-mario/' ><img src={budgetTracker}
+                <a href='https://fathomless-caverns-31899.herokuapp.com/' className='col-12 text-center '><h2 className='col-12 text-center text-light'>Michigan Travels</h2></a>
+                <p className='col-4 text-light mb-1' style={{ fontSize: '1.25rem' }}>A travel blog site that lists various vacation spots in the beautiful state of Michigan. Uses MongoDB, Express.js, React.js, and Node.js.</p>
+                <a href='https://fathomless-caverns-31899.herokuapp.com/' ><img src={michiganTravel}
                     alt='Budget Tracker'
                     style={{ height: 150 }}
                     // className='col-3'
