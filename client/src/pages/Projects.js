@@ -1,7 +1,7 @@
 import React from 'react';
 import itsAmiibo from '../assets/its-amiibo-mario1.jpg';
 import deepThoughts from '../assets/deep-thoughts1.jpg';
-import michiganTravel from '../assets/michigan-travel.jpg'
+import michiganTravel from '../assets/michigan-travel.jpg';
 
 const Projects = () => {
     return (
