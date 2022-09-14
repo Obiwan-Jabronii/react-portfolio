@@ -16,7 +16,7 @@ const About = () => {
                 <img 
                     src={meImage}
                     alt='Mitchell Lough'
-                    style={{width: '22%', height: '425px', border: 'solid 5px #049434'}} />
+                    style={{minWidth: '20%', height: '425px', border: 'solid 5px #049434'}} />
             </div>
         </main>
     )

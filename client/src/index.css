@@ -255,9 +255,10 @@ a h2:hover {
   margin-left: auto;
   margin-right: auto;
   background-image: url(./assets/splash-image3.jpg);
-  background-size: 100% 100%;
-  height: 100vh;
-  position: static;
+  background-size: cover;
+  
+  background-attachment: fixed;
+  min-height: 100vh;
 }
 
 .container-fluid {

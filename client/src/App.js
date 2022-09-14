@@ -4,7 +4,7 @@ import React from 'react';
 
 // import components 
 import Header from './components/Header';
-import Footer from './components/Footer';
+
 
 //import pages 
 import Home from './pages/Home';
@@ -57,7 +57,6 @@ function App() {
                 />
               </Routes>
             </div>
-          <Footer />
         </div>
       </Router>
     </ApolloProvider>
