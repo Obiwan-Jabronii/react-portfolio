@@ -1018,6 +1018,7 @@ a h2:hover {
 
 /* col-md */
 @media screen and (min-width: 768px) {
+  
   .col-md-auto {
     flex-grow: 1;
     flex-basis: 0;
@@ -1283,4 +1284,10 @@ a h2:hover {
     align-items: center;
   }
 
+}
+
+@media screen and (max-width: 640px) {
+  .text-shrink {
+    font-size: large;
+  }
 }
