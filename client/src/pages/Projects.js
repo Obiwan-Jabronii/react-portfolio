@@ -29,13 +29,13 @@ const Projects = () => {
                     style={{ height: 150 }}
                     // className='col-3'
                 /></a>
-                <a href='https://deepthoughts1.herokuapp.com/' className='col-12 text-center '><h2 className='col-12 text-center text-light'>Deep Thoughts</h2></a>
+                {/* <a href='https://deepthoughts1.herokuapp.com/' className='col-12 text-center '><h2 className='col-12 text-center text-light'>Deep Thoughts</h2></a>
                 <p className='col-4 text-light' style={{ fontSize: '1.25rem' }}>A full-stack single page social media application. Uses multiple technologies including MongoDB, Apollo Server, Express.js, Node.js, and React.js. Users can create a profile, add friends, and post thoughts for others to react to and comment on.</p>
                 <a href='https://deepthoughts1.herokuapp.com/' ><img src={deepThoughts}
                     alt='Deep Thoughts'
                     style={{ height: 150}}
                     // className='col-3'
-                /></a>
+                /></a> */}
             </div>
         </main>
     )
