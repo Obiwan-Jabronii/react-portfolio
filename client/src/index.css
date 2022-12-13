@@ -1288,6 +1288,6 @@ a h2:hover {
 
 @media screen and (max-width: 640px) {
   .text-shrink {
-    font-size: large;
+    font-size: 1.5rem;
   }
 }

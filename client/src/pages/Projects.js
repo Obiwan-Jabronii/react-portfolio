@@ -9,7 +9,7 @@ const Projects = () => {
         <main>
             <div className='flex-row justify-center mt-1'>
                 <a href='https://fathomless-caverns-31899.herokuapp.com/' className='col-12 text-center '><h2 className='col-12 text-center text-light'>Michigan Travels</h2></a>
-                <p className='col-4 text-light mb-1 col-sm-12 text-center' style={{ fontSize: '1.25rem' }}>A travel blog site that lists various vacation spots in the beautiful state of Michigan. Uses MongoDB, Express.js, React.js, and Node.js.</p>
+                <p className='col-4 text-light mb-1 col-sm-12 text-center' style={{ fontSize: '1.25rem',  }}>A travel blog site that lists various vacation spots in the beautiful state of Michigan. Uses MongoDB, Express.js, React.js, and Node.js.</p>
                 <a href='https://fathomless-caverns-31899.herokuapp.com/' ><img src={michiganTravel}
                     alt='Michigan Traveler'
                     style={{ height: 150 }}
