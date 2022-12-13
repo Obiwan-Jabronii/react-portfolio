@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
       <header className="bg-light py-2 flex-row align-center">
-        <div className=" flex-row justify-space-around-sm justify-center align-center text-primary w-100" >
+        <div className=" flex-row justify-space-around align-center text-primary w-100" >
           <Link to="/">
             <h1>Mitchell Lough</h1>
           </Link>

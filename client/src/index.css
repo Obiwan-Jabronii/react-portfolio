@@ -289,7 +289,7 @@ a h2:hover {
 
 .home-container {
   margin-top: 8%;
-  margin-left: 11%;
+ 
 }
 
 /* HEIGHT / WIDTH UTILS */
@@ -929,7 +929,7 @@ a h2:hover {
 }
 
 /* col-sm */
-@media screen and (min-width: 640px) {
+@media screen and (max-width: 640px) {
   .col-sm-auto {
     flex-grow: 1;
     flex-basis: 0;
