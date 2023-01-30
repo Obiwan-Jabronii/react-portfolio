@@ -42,11 +42,12 @@ body {
 .jumbotron {
   background-color: var(--secondary);
   font-family: 'Times New Roman', Times, serif;
-  padding: 11rem 0;
+  padding: 9rem 0;
 }
 
 .splash {
   max-width: 100%;
+  filter: grayscale(1);
 }
 
 .project-sample {
@@ -147,6 +148,7 @@ nav a {
 nav a:hover {
   color: var(--secondary);
 }
+
 a:hover {
   color: var(--secondary);
 }
@@ -252,13 +254,21 @@ a h1 {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(./assets/splash-image3.jpg);
+  background-image: 
+  linear-gradient(black, black),
+  url(./assets/splash-image3.jpg);
   background-size: cover;
-  
   background-attachment: fixed;
   min-height: 100vh;
+  background-blend-mode: saturation;
 }
+li a:hover {
+  color: var(--light);
+}
+li a:visited {
+  color: var(--dark);
 
+}
 
 .about-section {
   background-color: var(--dark);

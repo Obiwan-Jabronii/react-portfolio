@@ -62,19 +62,19 @@ const Home = () => {
             <div className='container-fluid' id='projects'>
                 <div className='row'>
                     <div className='project-header'>
-                        <h1 style={{ color: 'var(--light)'}}>Projects</h1>
+                        <h1 style={{ color: 'var(--secondary)'}}>Projects</h1>
                     </div>
                     <hr className=' col-sm-9' style={{ height: '3px', color: ' var(--secondary)', margin: '2rem auto', backgroundColor: 'var(--secondary)'}}></hr>
                     <div className=' col-12 col-sm-4 thumbnail'>
-                        <Image src={michiganTravel} alt='Michigan Travel' rounded className='sample-img'></Image>
+                        <a href='https://fathomless-caverns-31899.herokuapp.com/' ><Image src={michiganTravel} alt='Michigan Travel' rounded className='sample-img'></Image></a>
                         <p  className="thumbnail-p rounded">A travel blog site that lists various vacation spots in the beautiful state of Michigan. Users can create profiles and leave comments on destinations they have visited. This helps to create a community of travelers aiding each other in their adventures. It was built using MongoDB, Express.js, React.js, and Node.js.</p>
                     </div>
                     <div className=' col-12 col-sm-4 thumbnail'>
-                        <Image src={demoShop} alt='Demo Shop' rounded className='sample-img'></Image>
+                        <a href='https://morning-brushlands-84788.herokuapp.com/' ><Image src={demoShop} alt='Demo Shop' rounded className='sample-img'></Image></a>
                         <p className="thumbnail-p rounded">A shopping app similar to Amazon that allows users to add items to a cart and checkout via stripe. Built by myself using MongoDB, Express.js, React.js, Node.js, and the Stripe API.</p>
                     </div>
                     <div className=' col-12 col-sm-4 thumbnail'>
-                        <Image src={itsAmiibo} alt='ItsAmiibo' rounded className='sample-img'></Image>
+                        <a href='https://obiwan-jabronii.github.io/its-amiibo-mario/' ><Image src={itsAmiibo} alt='ItsAmiibo' rounded className='sample-img'></Image></a>
                         <p className="thumbnail-p rounded">A front-end application that allows users to search for Amiibos by character name.  They are then given which Amiibos involve that character and where it can be purchased. This is accomplished by using multiple third party API's including ones from Nintendo and Ebay.</p>
                     </div>
                 </div>
