@@ -7,13 +7,14 @@ const Header = () => {
       <header className="bg-light py-2 flex-row align-center">
         <div className=" flex-row justify-space-around align-center text-primary w-100" >
           <Link to="/">
-            <h1>Mitchell Lough</h1>
+            <h1 className="h1name">Mitchell Lough</h1>
           </Link>
   
           <nav className='text-center text-primary'>
-            <Link to="/about">About</Link>
-            <Link to="/projects">Projects</Link>
-            <Link to="/contact">Contact</Link>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#cert">Certification & Links</a>
+            <a href="#contact">Contact</a>
             {/* <Link to="/comments">Comments</Link> */}
           </nav>
         </div>
