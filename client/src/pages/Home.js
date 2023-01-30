@@ -28,7 +28,7 @@ const Home = () => {
                     enrolled in the full-stack web development certification<br /> program through Michigan State Universtiy the following fall. 
                     I graduated in March of 2022 and recieved my certificate shortly thereafter. Previously I worked as an operations <br />
                     lead at Tyson Foods and had been at the company for 4.5 years before leaving to focus entirely on my coding and
-                    furthering my knowledge of the wonderful world of web development.<br/> I am lucky enough to be the father of two amazing children.
+                    furthering my knowledge of the wonderful world of web development.<br/> I am lucky enough to be the father of two amazing children, Abbey and Rowan (pictured below). 
                     
 
                 </p>
@@ -67,15 +67,24 @@ const Home = () => {
                     <hr className=' col-sm-9' style={{ height: '3px', color: ' var(--secondary)', margin: '2rem auto', backgroundColor: 'var(--secondary)'}}></hr>
                     <div className=' col-12 col-sm-4 thumbnail'>
                         <a href='https://fathomless-caverns-31899.herokuapp.com/' ><Image src={michiganTravel} alt='Michigan Travel' rounded className='sample-img'></Image></a>
-                        <p  className="thumbnail-p rounded">A travel blog site that lists various vacation spots in the beautiful state of Michigan. Users can create profiles and leave comments on destinations they have visited. This helps to create a community of travelers aiding each other in their adventures. It was built using MongoDB, Express.js, React.js, and Node.js.</p>
+                        <div style={{ backgroundColor: 'rgba(0,0,0,.5)', textAlign: 'center', padding: '2rem', minHeight: '20rem'}}>
+                            <h2 style={{ color: 'var(--light)'}}>The Michigan Traveler</h2>
+                            <p  className="thumbnail-p rounded">A travel blog site that lists various vacation spots in the beautiful state of Michigan. Users can create profiles and leave comments on destinations they have visited. This helps to create a community of travelers aiding each other in their adventures. It was built using MongoDB, Express.js, React.js, and Node.js.</p>
+                        </div>
                     </div>
                     <div className=' col-12 col-sm-4 thumbnail'>
                         <a href='https://morning-brushlands-84788.herokuapp.com/' ><Image src={demoShop} alt='Demo Shop' rounded className='sample-img'></Image></a>
-                        <p className="thumbnail-p rounded">A shopping app similar to Amazon that allows users to add items to a cart and checkout via stripe. Built by myself using MongoDB, Express.js, React.js, Node.js, and the Stripe API.</p>
+                        <div style={{ backgroundColor: 'rgba(0,0,0,.5)', textAlign: 'center', padding: '2rem', minHeight: '20rem' }}>
+                            <h2 style={{ color: 'var(--light)'}}>The Demo Shop</h2>
+                            <p className="thumbnail-p rounded">A shopping app similar to Amazon that allows users to add items to a cart and checkout via stripe. Built by myself using MongoDB, Express.js, React.js, Node.js, and the Stripe API.</p>
+                        </div>
                     </div>
                     <div className=' col-12 col-sm-4 thumbnail'>
                         <a href='https://obiwan-jabronii.github.io/its-amiibo-mario/' ><Image src={itsAmiibo} alt='ItsAmiibo' rounded className='sample-img'></Image></a>
-                        <p className="thumbnail-p rounded">A front-end application that allows users to search for Amiibos by character name.  They are then given which Amiibos involve that character and where it can be purchased. This is accomplished by using multiple third party API's including ones from Nintendo and Ebay.</p>
+                        <div style={{ backgroundColor: 'rgba(0,0,0,.5)', textAlign: 'center', padding: '2rem', minHeight: '20rem'}}>
+                            <h2 style={{ color: 'var(--light)'}}>It's Amiibo Mario</h2>
+                            <p className="thumbnail-p rounded">A front-end application that allows users to search for Amiibos by character name.  They are then given which Amiibos involve that character and where it can be purchased. This is accomplished by using multiple third party API's including ones from Nintendo and Ebay.</p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -231,9 +231,6 @@ a h1 {
   text-align: center;
   color: var(--light);
   width: 100%;
-  background-color: rgba(0, 0, 0, .5);
-  height: 15rem;
-  padding: 2rem;
   font-family: 'Times New Roman', Times, serif;
 }
 
